@@ -32,7 +32,6 @@ var removeComplete = function(){
   $(".taskComplete").text("");
 }
 
-
 $(function(){
   $("#userTask").submit(function(event){
     event.preventDefault();
@@ -44,7 +43,7 @@ $(function(){
 
     document.getElementById('userInput').value=''; //resets form field after user submit
 
-    $("#toDoList").append('<span id=\"li' + (toDo.currentId) + '\"><li>' + toDo.taskDetails[toDo.currentId-1] + '</li></span>');
+    $("#toDoList").append('<span id=\"li' + (toDo.currentId) + '\"><li class=\"list-group-item list-group-item-action\">' + toDo.taskDetails[toDo.currentId-1] + '</li></span>');
 
     $("#li" + (toDo.currentId)).click(function(){
       $(this).addClass("taskComplete"); //adds .taskComplete class to the specific li user has clicked

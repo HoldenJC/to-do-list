@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
@@ -9,20 +10,26 @@
     <title></title>
   </head>
   <body>
-    <div class="container-fluid">
-      <form id="userTask">
-        <label for="userInput">Enter a task to add to the to-do list:</label>
-        <input id="userInput" type="text" name="userInput">
+    <div class="container-fluid centered">
+      <div class="card bg-secondary mb-3 card-image-overlay" style="background-image: url(https://wallpaperplay.com/walls/full/4/c/c/86378.jpg)">
+        <div class="card-header text-white">Enter a Task</div>
+        <form id="userTask">
+          <div class="form-group" id="formStyle">
+            <!-- <label for="userInput" class="display">Enter a task to add to the to-do list:</label> -->
+            <input id="userInput" type="text" name="userInput" class="form-control">
 
-        <button type="submit" name="button">Add</button>
-        <button type="reset" name="button">Remove completed items</button>
+            <button type="submit" name="button" class="btn btn-light">Add</button>
+            <button type="reset" name="button" class="btn btn-dark">Remove</button>
 
-      </form>
+          </div>
 
-      <div id="toDo">
-        <ul id="toDoList">
+        </form>
 
-        </ul>
+        <div id="toDo">
+          <ul id="toDoList" class="list-group list-group-flush">
+
+          </ul>
+        </div>
       </div>
     </div>
   </body>

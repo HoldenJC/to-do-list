@@ -1,3 +1,60 @@
+
+body {
+  font-family: 'Questrial', sans-serif;
+
+}
+li {
+  font-family: 'Questrial', sans-serif;
+  text-align: center !important;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw !important;
+  border-bottom: 1px solid #d8c5c5 !important;
+  margin-bottom: 2px;
+
+}
+
+button {
+  width: 20vw;
+  box-shadow: 2px 2px 5px black;
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .taskComplete {
   text-decoration: line-through;
+
+}
+
+.card-header {
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.centered {
+  text-align: center;
+}
+
+#formStyle {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#userInput {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  width: 50vw;
+}
+
+
+#toDoList {
+  margin-bottom: 20px;
 }
