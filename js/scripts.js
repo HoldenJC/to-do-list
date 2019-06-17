@@ -29,7 +29,7 @@ function TaskDetail(task) {
 
 //function that removes any tasks the user has identified as completed (.taskComplete class)
 var removeComplete = function(){
-  $(".taskComplete").text("");
+  $(".taskComplete").slideUp();
 }
 
 $(function(){

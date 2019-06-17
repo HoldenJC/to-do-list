@@ -5,38 +5,46 @@ body {
 }
 li {
   font-family: 'Questrial', sans-serif;
-  text-align: center !important;
+  /* text-align: center !important; */
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50vw !important;
+  width: 45vw !important;
   border-bottom: 1px solid #d8c5c5 !important;
   margin-bottom: 2px;
+  opacity: 0.80;
+  box-shadow: 3px 3px 4px #303030;
 
 }
 
 button {
   width: 20vw;
   box-shadow: 2px 2px 5px black;
+  opacity: 0.9;
 }
 
 .card {
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("https://wallpaperplay.com/walls/full/5/c/c/121472.jpg") no-repeat scroll center top transparent;
+  /* background-repeat: no-repeat; */
+  height: 98vh;
+  width: 98vw;
+  /* background-size: cover; */
 }
 
 .taskComplete {
   text-decoration: line-through;
-
+  background: #804274 !important;
+  color: white !important;
+  width: 45vw !important;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.75;
 }
 
 .card-header {
   font-size: 50px;
   margin-bottom: 15px;
   text-shadow: 2px 2px 5px black;
-}
-
-.centered {
   text-align: center;
 }
 
@@ -52,6 +60,7 @@ button {
   margin-bottom: 10px;
   display: block;
   width: 50vw;
+  opacity: 0.75;
 }
 
 
